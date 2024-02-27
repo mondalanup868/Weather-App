@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="search">
+      <input type="text" placeholder="Enter city name" spellcheck="false" class="input-box">
+      <button class="searchBtn"> <img src="./assets/search.png" alt=""> </button>
+    </div>
+
+    <div class="location-not-found">
+      <h2>Sorry,Location not found!</h2>
+      <img src="/assets/404.png" alt="404 Error">
+      <p class="not_found">Please enter the valid location</p>
+      <button class="retry">Retry</button>
+    </div>
+
+
+    <div class="weather">
+      <img src="./assets/rain.png" alt="" class="weather-icon">
+      <h1 class="temp">22°C</h1>
+
+      <div class="description">Cloudy</div>
+      <div id="city">Kolkata</div>
+      <div class="details">
+
+
+        <div class="col">
+          <img src="./assets/humidity.png" alt="">
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+
+        </div>
+        <div class="col">
+          <img src="./assets/wind.png" alt="">
+          <div>
+            <p class="wind">15</p>
+            <p>Wind Speed(km/h)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"> </script>
+</body>
+
+</html>
